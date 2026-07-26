@@ -1,0 +1,6 @@
+# Large raw data - not stored in git (see README for details)
+poker-hand-histories.zip
+
+# Power BI temp/cache files
+*.pbix.bak
+~$*
