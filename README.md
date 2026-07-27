@@ -1,10 +1,22 @@
-# Phil Ivey vs Tom Dwan
+# The $2.34M Hand – Tom Dwan vs Phil Ivey (2009)
 
-A Power BI project analyzing hand history data from the famous high-stakes cash game sessions between Phil Ivey and Tom Dwan.
+A street-by-street Power BI breakdown of poker's most iconic cash game pot: the first-ever televised million-dollar pot, played between Tom Dwan and Phil Ivey on *Full Tilt Million Dollar Cash Game*.
+
+![Dashboard screenshot](dashboard-screenshot.png)
+
+## Dashboard
+
+The report breaks the hand down bet by bet, street by street:
+
+- **Aggression by Player** — stacked bar comparing Ivey and Dwan by action type (3-bet, bet, call, raise, re-raise).
+- **PotSize by Street** — line chart tracking the pot growing from $46,000 preflop to $2,340,200 by the turn.
+- **Amount by Street** — bar chart of money committed on each street (the turn alone accounts for $2,224,200 of it).
+- **Players** and **Street** slicers to filter the whole report down to a single player or street.
 
 ## Contents
 
 - `Dwan vs Ivey.pbix` — the Power BI report/dashboard.
+- `dashboard-screenshot.png` — a preview of the dashboard, since `.pbix` files don't render on GitHub.
 - `data/dwan-ivey-2009.phh` — the hand history for the famous hand itself: the first televised million-dollar pot, from *Full Tilt Million Dollar Cash Game* S4E12 ([video](https://youtu.be/GnxFohpljqM)), in [PHH format](https://arxiv.org/abs/2312.11753). Sourced from the open [phh-dataset](https://github.com/uoftcprg/phh-dataset) project (author: Juho Kim).
 
 ## Data
